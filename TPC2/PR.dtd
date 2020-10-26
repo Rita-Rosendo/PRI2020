@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT project (metaInfo, workteam, abstract, deliverables) >
+<!ELEMENT metaInfo (keyName, title, subtitle?, beginDate, endDate, supervisor) >
+
+<!ELEMENT keyName (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT beginDate (#PCDATA) >
+<!ELEMENT endDate (#PCDATA) >
+
+<!--"a" it's a referance-->
+<!ELEMENT a (#PCDATA) >
+<!ATTLIST a
+          href CDATA #REQUIRED
+          target CDATA #IMPLIED >
+<!ELEMENT supervisor (a+) >
+
+
+
+<!ELEMENT workteam (teammate+) >
+<!ELEMENT teammate (name, number, email, website?) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT number (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!ELEMENT website (a) >
+
+
+<!ELEMENT abstract (paragraph+) >
+<!ELEMENT paragraph (#PCDATA|bold|italic|underline|a)* >
+<!ELEMENT bold (#PCDATA) >
+<!ELEMENT italic (#PCDATA) >
+<!ELEMENT underline (#PCDATA) >
+
+<!ELEMENT deliverables (a+)>
+
