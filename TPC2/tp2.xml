@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "file:/home/aninhas/Desktop/2020_2021/PLC/PRI/TPC/TPC2/PR.dtd">
+<?xml-stylesheet href="tp2.css"?>
+<project>
+    <metaInfo>
+        <keyName>TPC2_2020</keyName>
+        <title>TPC2</title>
+        <beginDate>23 Outubro</beginDate>
+        <endDate>26 Outubro</endDate>
+        <supervisor>
+            <a href="http://www4.di.uminho.pt/~jcr/" target="_blank">José Carlos Ramalho</a>
+        </supervisor>
+    </metaInfo>
+    <workteam>
+        <teammate>
+            <name>Rita Rosendo</name>
+            <number>x12345</number>
+            <email>email@gmail.com</email>
+        </teammate>
+    </workteam>
+    <abstract>
+        <paragraph>
+            Na aula do dia 19 de Outubro de 2020 da UC <bold>PRI</bold>, do perfil <bold>PLC</bold>, foi-nos proposta a criação um ficheiro <bold> dtd </bold> que
+            seguisse o formato do exemplo (link : <a href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/Project%20Record.htm" > Exemplo </a> ) e
+            , através do <italic> Oxygen Editor </italic>, gerasse um <italic> xml </italic>.
+        </paragraph>
+        <paragraph>
+            De modo a proceder à visualização do ficheiro <italic>xml</italic> de uma forma "mais fácil e clara", foi criado um ficheiro <italic>css</italic> que, de momento, se encontra incompleto.
+        </paragraph>
+    </abstract>
+    <deliverables>
+            <a href="https://github.com/Rita-Rosendo/PRI2020/blob/main/TPC2/PR.dtd" target="_blank">Ficheiro dtd</a>
+            <a href="https://github.com/Rita-Rosendo/PRI2020/blob/main/TPC2/tp2.xml" target="_blank">Ficheiro xml</a>
+            <a href="https://github.com/Rita-Rosendo/PRI2020/blob/main/TPC2/tp2.css" target="_blank">Ficheiro css</a>
+    </deliverables>
+</project> 
