@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ARQSITS SYSTEM "file:/home/aninhas/Desktop/2020_2021/PLC/PRI/TPC/TP3/arq.dtd">
+<ARQSITS>
+    <ARQELEM>
+        <TIPO ASSUNTO=""></TIPO>
+        <IDENTI></IDENTI>
+        <DESCRI>
+            <LIGA TERMO=""></LIGA>
+        </DESCRI>
+        <LUGAR></LUGAR>
+        <FREGUE></FREGUE>
+        <CONCEL></CONCEL>
+        <CODADM></CODADM>
+        <LATITU></LATITU>
+        <ALTITU></ALTITU>
+        <ACESSO></ACESSO>
+        <QUADRO></QUADRO>
+        <DESARQ></DESARQ>
+        <INTERP></INTERP>
+        <DEPOSI></DEPOSI>
+        <AUTOR></AUTOR>
+        <DATA></DATA>
+    </ARQELEM>
+</ARQSITS>
