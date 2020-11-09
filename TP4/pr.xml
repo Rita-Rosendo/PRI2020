@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/home/aninhas/Desktop/2020_2021/PLC/PRI/TPC/TP4/pr.dtd">
+<pr>
+    <meta>
+        <key>PRI_2020_TP4</key>
+        <title>Servidor em NodeJs para o dataset Arqueossítios</title>
+        <bdate>7-11-2020</bdate>
+        <edate>9-11-2020</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/"> José Carlos Ramalho </supervisor>
+    </meta>
+    <workteam>
+        <worker number="A84475">
+            <name>Ana Rita Miranda Rosendo</name>
+            <email>a84475@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Foi-nos proposta a realização de um trabalho de casa que tem como objectivo criar um <b>servidor</b> em NodeJs que 
+            recebe pedidos e responde com a página <i>HTML</i> correspondente.
+        </p>
+        <p>
+            Primeiramente, foi necessário criar uma stylesheet que gera um índice multinível em que cada nível é um concelho e, 
+            em cada concelho, encontram-se os arqueossítios que pertencem ao mesmo. Esta stylesheet gera, dentro de uma pasta 
+            denominada "arqweb", os ficheiros <i>html</i> para cada arqelem e o <i>index.html</i>. 
+        </p>
+        <p>
+            De seguida, foi necessário criar um servidor que ao receber o pedido <i>localhost:7777/arqs/ <b>3</b></i> devolve
+            o <i>arq<b>3</b>.html</i>, por exemplo, e que ao receber o pedido <i>localhost:7777/arqs/<b>*</b></i> devolve o 
+            <i><b>index</b>.html</i>. 
+        </p>
+        <p>
+            Depois de proceder à realização das tarefas ditas anteriormente, pode-se observar o seguinte: o servidor, depois de receber um pedido do 
+            tipo <i>localhost:7777/arqs/ <b>n</b></i> em que <b>n</b> corresponde ao ficheiro do arqelem <b>n</b>, devolve o <i>arq<b>n</b>.html</i>; 
+            o servidor, depois de receber um pedido do tipo <i>localhost:7777/arqs/<b>*</b></i>, devolve o <i><b>index</b>.html</i> e este índice é navegável, 
+            ou seja, podemos, ao escolher um dos arqelem, ir para a página <i>html</i> desse arqelem porém, para voltar ao índice, é necessário efetuar 
+            novamente o pedido <i>localhost:7777/arqs/<b>*</b></i>.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="./arq.xml">XML dos arqueossítios</link>
+        <link url="./arq.xsl">Stylesheet que cria um índíce multinível</link>
+        <link url="./server.js">Servidor</link>
+        <link url="./pr.dtd">Project Record - DTD</link>
+        <link url="./pr.xml">Project Record - XML</link>
+        <link url="./pr.xsl">Project Record - XSL</link>
+        <link url="./pr.html">Project Record - HTML</link>
+    </deliverables>
+</pr>
