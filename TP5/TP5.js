@@ -66,19 +66,10 @@ var servidor = http.createServer(function (req, res) {
                 .then(resp => {
                     instrumentos = resp.data;
                     res.write('<ul>');
-                    if( instrumentos.hasOwnProperty('nome')){
-                        instrumentos.forEach(i => {
-                            res.write(`<li> <p> <b> ID : ${i.id} </b> </p>
-                                            <p> Instrumento :  ${i.nome} </p> </li>`)
-                    });
-                    }
-                    else{
-                        instrumentos.forEach(i => {
+                    instrumentos.forEach(i => {
                             res.write(`<li> <p> <b> ID : ${i.id} </b> </p>
                                             <p> Instrumento :  ${i["#text"]} </p> </li>`)
                     });
-                    }
-                   
                     res.write('</ul>');
                     res.end()
             })
